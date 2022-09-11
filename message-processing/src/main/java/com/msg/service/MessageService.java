@@ -92,7 +92,6 @@ public class MessageService {
 			pd.setTotalPrice(pd.getTotalPrice().multiply(priceToBeAdjusted).setScale(2, RoundingMode.CEILING));
 			break;
 		}
-		System.out.println(dataMap);
 	}
 
 	public void enqueue(Message m) {
